@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown</title>
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header class="blog-header">
+        <p class="blog-title">Markdown</p>
+        <nav class="blog-navigation">
+            <ul>
+                <li><a href="#">What is Markdown?</a></li>
+                <li><a href="#">Benefits of Markdown?</a></li>
+                <li><a href="#">Markdown Syntax Examples</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="markdown-intro">
+            <h1>What is Markdown?</h1>
+            <img src="images/markdown-logo.jpg" alt="markdown logo">
+            <p>Markdown is a plain text formatting syntax for writers, allowing you to write structured content for the
+                web that can be seamlessly converted to clean, structured HTML. Developed in 2004 by John Gruber and
+                Aaron Swartz, Markdown was created to make writing XHTML/HTML easier by converting plain-text files into
+                structurally valid HTML or XHTML. With its key features such as headings, text emphasis, links, images,
+                lists, and more, Markdown provides a writing flow that is uninterrupted, allowing you to keep your
+                fingers on the keyboard and apply formatting on the fly, making it a powerful tool for writers.</p>
+        </section>
+        <section class="markdown-benefits">
+            <h2> Benefits of Markdown</h2>
+            <p>Using Markdown offers a significant advantage over traditional writing interfaces, particularly for
+                advanced writers. The biggest reason for this is the concept of "writing flow." When using a traditional
+                interface, you're constantly interrupted by the need to click, highlight, and apply formatting, creating
+                a disjointed experience that can be tiresome and frustrating. In contrast, Markdown allows you to focus
+                on writing without interruption, keeping your fingers on the keyboard and applying formatting on the
+                fly.</p>
+        </section>
+
+        <section class="markdown-example">
+
+            <h2>Markdown Syntax Examples</h2>
+            <section class="markdown-input">
+                <h3> Input </h3>
+                <!-- create heading with hashtags  -->
+                ## Second heading <br>
+                ### Third heading <br>
+                <!-- two stars or underscores make it bold  -->
+                **this is a bold text** <br>
+                <!-- using dash to make an un-ordered list -->
+                - Item one <br>
+                - Item two <br>
+                - Item three <br>
+
+                <!-- blockquote: greater than symbol ,use  > > to blockquote within a blockquote   -->
+                > This is a blockquote <br>
+                > > Some text <br>
+                > > > here <br>
+
+            </section>
+
+            <section class="markdown-output">
+                <h3> Output</h3>
+                <div class="example-heading">
+                    <h2> Second heading</h2>
+                    <h3> Third heading</h3>
+                </div>
+                <div class="example-boldtext">
+                    <p>this is a bold text</p>
+                </div>
+                <div class="exampe-list">
+                    <ul>
+                        <li> Item one</li>
+                        <li> Item two</li>
+                        <li> Item three</li>
+                    </ul>
+                </div>
+                <div class="example-blockquote">
+                    <blockquote cite="">
+                        <p>
+                            This is a blockquote
+                        </p>
+                    </blockquote>
+                </div>
+            </section>
+
+
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="blog-footer">
+        <p>&copy; Web Dev II Group 3 December 2024.</p>
+    </footer>
+
+</body>
+
+</html>
