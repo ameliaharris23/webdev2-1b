@@ -1,3 +1,39 @@
+header.blog-header img {
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
 
+section.markdown-intro {
+    text-align: center;
+    margin: 0rem 1rem;
+}
 
-/*# sourceMappingURL=styles.css.map */
+section.markdown-intro p {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+section.markdown-benefits {
+    text-align: center;
+    margin: 0rem 1rem;
+}
+
+section.markdown-benefits p {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+section.markdown-example h2,
+h3 {
+    text-align: center;
+}
+
+section.markdown-input {
+    margin: 0rem 1rem;
+}
+
+section.markdown-output {
+    margin: 0rem 1rem;
+}
