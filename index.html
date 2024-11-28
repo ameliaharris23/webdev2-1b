@@ -12,21 +12,24 @@
 <body>
 
     <header class="blog-header">
-        <h1> Markdown</h1>
-        <nav class="blog-navigation">
+
+        <img src="images/markdown-small.jpg" alt="markdown logo" srcset="images/markdown-medium.jpg 800w,
+    images/markdown-small.jpg 400w" sizes="(max-width:300px) calc(100vw-60px),240px">
+
+        <!-- <nav class="blog-navigation">
             <ul>
                 <li><a href="#">What is Markdown?</a></li>
                 <li><a href="#">Benefits of Markdown</a></li>
                 <li><a href="#">Markdown Syntax Examples</a></li>
 
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
         <section class="markdown-intro">
 
-            <img src="images/markdown-logo.jpg" alt="markdown logo">
+            <h1> Markdown</h1>
             <h2>What is Markdown?</h1>
                 <p>Markdown is a plain text formatting syntax for writers, allowing you to write structured content for
                     the
@@ -46,6 +49,15 @@
                 a disjointed experience that can be tiresome and frustrating. In contrast, Markdown allows you to focus
                 on writing without interruption, keeping your fingers on the keyboard and applying formatting on the
                 fly.</p>
+            <P>
+                Markdown is not just a writing tool, but also a formatting tool that's portable and future-proof. Files
+                containing Markdown-formatted text can be opened using virtually any application, making it easy to
+                switch between different tools and platforms. This is in stark contrast to proprietary file formats like
+                Microsoft Word, which can lock your content into a specific application. Additionally, Markdown is
+                widely supported by websites and applications, including Reddit and GitHub, making it a versatile and
+                accessible format for a wide range of uses, from creating websites and documents to writing books and
+                technical documentation.
+            </P>
         </section>
 
         <section class="markdown-example">
@@ -64,9 +76,9 @@
                 - Item three <br>
 
                 <!-- blockquote: greater than symbol ,use  > > to blockquote within a blockquote   -->
-                > This is a blockquote <br>
-                > > Some text <br>
-                > > > here <br>
+                > Learning to write programs stretches your mind, and helps you think better, creates a way of
+                thinking about things that I think is helpful in all domain<br>
+                > > - Bill Gates <br>
 
             </section>
 
@@ -87,25 +99,48 @@
                     </ul>
                 </div>
                 <div class="example-blockquote">
-                    <blockquote cite="">
+                    <blockquote cite="https://www.ramotion.com/blog/web-development-quotes/">
                         <p>
-                            This is a blockquote
+                            Learning to write programs stretches your mind, and helps you think better, creates a way of
+                            thinking about things that I think is helpful in all domains.
                         </p>
                     </blockquote>
+                    <p> - Bill Gates </p>
                 </div>
             </section>
 
-
+        </section>
+        <section class="markdown-import">
+            <h2> How to import your Markdown</h2>
+            <p>
+                When it comes to using Markdown, there are several methods to choose from, including specialized
+                editors, command-line tools, and browser extensions. However, after exploring these options, we found
+                that online converters are often the quickest and most straightforward way to get started with Markdown.
+                These online tools allow you to simply paste in your Markdown text and instantly receive the
+                corresponding HTML output, making it easy to see the formatted result without needing to install any
+                software or learn complex syntax. This approach is perfect for those who want to quickly test out
+                Markdown or convert existing text without getting bogged down in the details.
+            </p>
 
         </section>
-
 
 
     </main>
 
     <footer class="blog-footer">
-        <p>&copy; Web Dev II Group 3 December 2024.</p>
+        <p>&copy; Web Dev II / December 2024.</p>
     </footer>
+
+    <picture>
+        <source srcset="images/monitor-large.jpg 1920w,
+                        images/monitor-medium.jpg 1280w,
+                        images/monitor-small.jpg 640w" sizes="(max-width: 960px) calc(100vw - 40px), 920px"
+            media="(max-width: 600px)">
+        <img src="images/check-2082845_1280.jpg" srcset="images/check-2082845_1280.jpg 1280w,
+                     images/check-2082845_640.jpg 640w , images/check-2082845_1920.jpg 1920w"
+            sizes="calc(100vw - 200px)" alt="web developping world">
+    </picture>
+
 
 </body>
 
