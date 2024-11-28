@@ -37,3 +37,22 @@ section.markdown-input {
 section.markdown-output {
     margin: 0rem 1rem;
 }
+
+section.markdown-import {
+    text-align: center;
+    margin: 0rem 1rem;
+}
+
+section.markdown-import p {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+section.input-stats {
+    border-style: solid;
+    padding: 1rem;
+}
+
+section.input-stats p {
+    margin-bottom: .5rem;
+}
