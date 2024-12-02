@@ -13,9 +13,18 @@
 
     <header class="blog-header">
 
+        <picture>
+            <source srcset="images/monitor-large.jpg 1920w,
+            images/monitor-medium.jpg 1280w,
+            images/monitor-small.jpg 640w" sizes="(max-width: 960px) calc(100vw - 40px), 920px"
+            media="(max-width: 600px)">
+            <img src="images/check-2082845_1280.jpg" srcset="images/check-2082845_1280.jpg 1280w,
+            images/check-2082845_640.jpg 640w , images/check-2082845_1920.jpg 1920w"
+            sizes="calc(100vw - 200px)" alt="web developping world">
+        </picture>
+        
         <img src="images/transparent_Markdown.png" alt="markdown logo" srcset="images/transparent_Markdown.png 400w"
             sizes="(max-width:300px) calc(100vw-60px),240px">
-
         <!-- <nav class="blog-navigation">
             <ul>
                 <li><a href="#">What is Markdown?</a></li>
@@ -135,17 +144,6 @@
     <footer class="blog-footer">
         <p>&copy; Web Dev II / December 2024.</p>
     </footer>
-
-    <picture>
-        <source srcset="images/monitor-large.jpg 1920w,
-                        images/monitor-medium.jpg 1280w,
-                        images/monitor-small.jpg 640w" sizes="(max-width: 960px) calc(100vw - 40px), 920px"
-            media="(max-width: 600px)">
-        <img src="images/check-2082845_1280.jpg" srcset="images/check-2082845_1280.jpg 1280w,
-                     images/check-2082845_640.jpg 640w , images/check-2082845_1920.jpg 1920w"
-            sizes="calc(100vw - 200px)" alt="web developping world">
-    </picture>
-
 
 </body>
 
