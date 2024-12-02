@@ -74,7 +74,7 @@ footer {
 }
 
 picture {
- position: absolute;
+display: block;
  top: 0rem;
  z-index: 0;
 }
