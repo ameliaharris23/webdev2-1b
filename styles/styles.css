@@ -54,6 +54,17 @@ section.input-stats {
     border-style: solid;
     padding: 1rem;
 }
+    @media (min-width: 50rem) {
+        section.input-stats {
+            max-width: 70%;
+            margin: auto;
+        }
+
+        section.output-stats{
+            max-width: 70%;
+            margin: auto;
+        }
+    }
 
 section.input-stats p {
     margin: 0rem;
@@ -73,8 +84,3 @@ footer {
     margin-left: 1rem;
 }
 
-picture {
-display: block;
- top: 0rem;
- z-index: 0;
-}
